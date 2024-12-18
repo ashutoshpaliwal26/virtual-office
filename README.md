@@ -52,17 +52,20 @@ git clone https://github.com/your-username/virtual-office.git
 cd virtual-office
 Install Dependencies
 Server Dependencies:
-
+```
+```
 bash
 Copy code
 cd server
 npm install
 Client Dependencies:
-
+```
+```
 bash
 Copy code
 cd client
 npm install
+```
 🏃 Running the Application
 Development Mode
 Start MongoDB:
@@ -70,21 +73,23 @@ Ensure MongoDB is running locally or through a cloud instance.
 
 Start the Server:
 Navigate to the server directory and start the backend server:
-
+```
 bash
 Copy code
 cd server
 npm run dev
 Start the Client:
 Navigate to the client directory and start the React app:
-
+```
+```
 bash
 Copy code
 cd client
 npm start
 Access the Application:
-Open your browser and visit http://localhost:3000.
-
+Open your browser and visit http://localhost:5173.
+```
+```
 🌳 Project Structure
 plaintext
 Copy code
@@ -108,7 +113,8 @@ virtual-office/
 🔧 Configuration
 Environment Variables
 Create a .env file in the server directory and add the following variables:
-
+```
+```
 env
 Copy code
 PORT=5000
@@ -116,11 +122,12 @@ MONGO_URI=mongodb://localhost:27017/virtual-office
 JWT_SECRET=your_jwt_secret
 🚧 Features in Progress
 Voice/Video Integration: Add real-time audio and video calls.
-
+```
 🤝 Contribution Guidelines
 We welcome contributions from the community! To contribute:
 
 Fork this repository.
+```
 Clone your forked repository:
 bash
 Copy code
@@ -138,7 +145,7 @@ bash
 Copy code
 git push origin feature-name
 Create a Pull Request on the main repository.
-
+```
 👤 About the Developer
 Name: Ashutosh Paliwal
 Role: Full Stack Developer
